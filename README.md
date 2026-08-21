@@ -202,19 +202,6 @@ Open another terminal and run:
 
     curl http://localhost:3000/issues
 
-You can now use the API.
-
-## Using the API From Another Application
-
-This backend can be used by any frontend or application that can send HTTP requests.
-
-For example, JavaScript can call the API using fetch:
-
-    fetch("http://localhost:3000/issues")
-      .then(response => response.json())
-      .then(data => console.log(data));
-
-A React application, mobile application, or another backend can also communicate with this API.
 
 ## Database
 
@@ -242,7 +229,3 @@ When another person clones the project, they must create their own PostgreSQL da
 
 The project code is shared through GitHub, but the database runs locally on each user's computer.
 
-
-## Author
-
-Aaditya Karn
